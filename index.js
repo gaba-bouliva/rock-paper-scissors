@@ -12,7 +12,7 @@ function getComputerChoice(){
 }
 
 function playRound(){
-  let userChoice = prompt('Enter your Choice: ');
+  let userChoice = prompt('Enter your Choice [Press F12 to see results.]: ');
   userChoice = userChoice.toLowerCase();
   while (userChoice !==  'rock' && userChoice !== 'paper' && userChoice !== 'scissors') {
     console.log("Please enter a valid choice ['rock', 'paper', 'scissors']");
@@ -80,4 +80,5 @@ function game(){
   }
 }
 console.log("**************** Rock Paper Scissors ***************");
-game()
+
+game();
