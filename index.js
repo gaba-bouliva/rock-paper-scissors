@@ -12,7 +12,7 @@ function getComputerChoice(){
 }
 
 function playRound(){
-  let userChoice = prompt('Enter your Choice [Press F12 to see results.]: ');
+  let userChoice = prompt('Enter your Choice [Before starting Press F12 then Press Ctrl + F5]: ');
   userChoice = userChoice.toLowerCase();
   while (userChoice !==  'rock' && userChoice !== 'paper' && userChoice !== 'scissors') {
     console.log("Please enter a valid choice ['rock', 'paper', 'scissors']");
@@ -59,6 +59,7 @@ function playRound(){
 }
 
 function game(){
+  console.log("**************** Rock Paper Scissors ***************");
   let user_score = 0;
   let computer_score = 0;
   let draws = 0;
@@ -79,7 +80,7 @@ function game(){
     console.log(`Draw Game with ${user_score} wins, ${computer_score} defeats and ${draws} draws.`);
   }
 }
-console.log("**************** Rock Paper Scissors ***************");
+
 document.addEventListener('DOMContentLoaded', function(){
     game();
 });
