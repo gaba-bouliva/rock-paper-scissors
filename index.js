@@ -80,5 +80,6 @@ function game(){
   }
 }
 console.log("**************** Rock Paper Scissors ***************");
-
-game();
+document.addEventListener('DOMContentLoaded', function(){
+    game();
+});
