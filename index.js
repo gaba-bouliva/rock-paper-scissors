@@ -81,6 +81,6 @@ function game(){
   }
 }
 
-document.addEventListener('DOMContentLoaded', function(){
-    game();
-});
+
+game();
+
