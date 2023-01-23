@@ -1,4 +1,73 @@
+body{
+  margin: 0px;
+  background-color: rgb(3, 25, 58);
+}
 .title{
   text-align: center;
   color: green;
+  font-size: 45px;
+}
+.game{
+  display: flex;
+  justify-content: center;
+}
+.choices{
+  display: flex;
+  justify-content: center;
+}
+.choices>div{
+  font-size: 100px;
+  margin: 40px;
+}
+.game>button{
+  margin: 20px;
+}
+
+button{
+  height: 80px;
+  width: 80px;
+}
+
+button{
+  cursor: pointer;
+  height: 150px;
+  width: 150px;
+}
+
+.info-text, .game-outcome-msg{
+ text-align: center;
+ color: #fff;
+}
+
+.game-outcome-msg{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+button>span{
+  font-size: 50px;
+}
+button>span:hover{
+  font-size: 100px;
+}
+.user-choice, .computer-choice{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.player{
+  color: #fff;
+  font-size: 20px;
+}
+
+.choices{
+  display: flex;
+  align-items: center;
+}
+
+strong>i{
+  font-size: 45px;
+  font-family: sans-serif;
+  color: #fff;
 }
